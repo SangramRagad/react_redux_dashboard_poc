@@ -19,7 +19,7 @@ import {
 function Dashboard() {
   return (
     <>
-      <Container fluid>{}</Container>
+      <h2 className="Container">Help Page</h2>
     </>
   );
 }

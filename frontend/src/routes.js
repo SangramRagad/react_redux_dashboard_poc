@@ -1,5 +1,5 @@
-import Dashboard from "views/Dashboard.js";
-import ServiceBarChart from "views/ServiceBarChart";
+import Dashboard from "./views/Dashboard";
+import ServiceBarGraph from "./views/ServiceBarGraph";
 import Help from "views/Help.js";
 
 const dashboardRoutes = [
@@ -12,7 +12,7 @@ const dashboardRoutes = [
   {
     path: "/user",
     name: "ServiceBarGraph",
-    component: ServiceBarChart,
+    component: ServiceBarGraph,
     layout: "/admin",
   },
   {
